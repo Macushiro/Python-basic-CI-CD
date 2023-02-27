@@ -1,0 +1,30 @@
+<!--"""-->
+<!--Базовая шаблон страницы товаров.-->
+<!--0) Взяли исходную версию из предыдущего занятия;-->
+<!--"""-->
+
+<!--Step 0-->
+{# взяли исходную версию из предыдущего занятия #}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+
+        {% endblock %}
+    </title>
+</head>
+<body>
+<header>
+    {% block header %}
+        Products app
+    {% endblock %}
+</header>
+
+{% block body %}
+
+{% endblock %}
+
+</body>
+</html>
